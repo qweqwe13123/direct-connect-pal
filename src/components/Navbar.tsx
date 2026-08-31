@@ -22,7 +22,7 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const tone = scrolled ? "text-foreground" : "text-primary-foreground";
+  const tone = "text-primary-foreground";
 
   const handleClick = (l: (typeof links)[number]) => (e: React.MouseEvent) => {
     setOpen(false);
@@ -34,27 +34,27 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-500 ${
-        scrolled ? "bg-background border-b border-border" : "bg-transparent"
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+        scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
       <div className="max-w-[1600px] mx-auto px-5 sm:px-8">
-        <div className="h-16 flex items-center justify-between">
+        <div className="h-[60px] flex items-center justify-between">
           <a
             href="/"
             onClick={handleClick(links[0])}
-            className={`font-body text-[11px] sm:text-xs tracking-[0.3em] uppercase ${tone}`}
+            className={`font-body text-[12px] sm:text-[13px] tracking-[0.16em] uppercase ${tone}`}
           >
             Zarifa Collection
           </a>
 
-          <div className="hidden md:flex items-center gap-10">
-            {links.slice(1).map((l) => (
+          <div className="hidden md:flex items-center gap-9">
+            {links.slice(1, 4).map((l) => (
               <a
                 key={l.label}
                 href={l.href}
                 onClick={handleClick(l)}
-                className={`link-underline font-body text-[11px] tracking-[0.18em] uppercase cursor-pointer transition-opacity duration-300 hover:opacity-70 ${tone}`}
+                className={`nav-link font-body text-[15px] cursor-pointer transition-opacity duration-300 hover:opacity-80 ${tone}`}
               >
                 {l.label}
               </a>
@@ -63,13 +63,13 @@ const Navbar = () => {
 
           <a
             href="/contacts"
-            onClick={handleClick(links[3])}
-            className={`hidden md:inline-block link-underline font-body text-[11px] tracking-[0.18em] uppercase ${tone}`}
+            onClick={handleClick(links[4])}
+            className={`hidden md:inline-block nav-link font-body text-[15px] ${tone}`}
           >
             Связаться
           </a>
 
-          <button
+
             onClick={() => setOpen(!open)}
             className={`md:hidden p-2 ${tone}`}
             aria-label="Меню"
