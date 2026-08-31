@@ -69,8 +69,9 @@ const Navbar = () => {
             Связаться
           </a>
 
-
+          <button
             onClick={() => setOpen(!open)}
+
             className={`md:hidden p-2 ${tone}`}
             aria-label="Меню"
           >
