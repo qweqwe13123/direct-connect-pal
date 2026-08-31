@@ -1,6 +1,6 @@
 import stylistPhoto from "@/assets/stylist-photo.jpg";
-import look1 from "@/assets/style-look-1.jpg";
-import look2 from "@/assets/style-look-2.jpg";
+import look1 from "@/assets/istanbul/p2-guzel.jpg";
+import look2 from "@/assets/istanbul/bottom.jpg";
 
 const AboutSection = () => {
   return (
