@@ -4,11 +4,11 @@ import { useNavigate } from "react-router-dom";
 const Footer = () => {
   const navigate = useNavigate();
   return (
-    <footer className="bg-primary text-primary-foreground relative overflow-hidden">
+    <footer className="bg-primary text-primary-foreground relative overflow-hidden font-body">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="md:col-span-1 space-y-4">
-            <h3 className="font-display text-2xl font-bold tracking-[0.15em]">ZARIFA COLLECTION</h3>
+            <h3 className="editorial-title text-2xl tracking-[0.15em]">ZARIFA COLLECTION</h3>
             <p className="font-body text-sm text-primary-foreground/70 leading-relaxed">
               Элегантная исламская мода и персональный стиль для современных мусульманок.
             </p>
@@ -77,7 +77,7 @@ const Footer = () => {
 
       {/* Big brand name - static */}
       <div className="overflow-hidden pb-4">
-        <h2 className="font-display text-[15vw] font-black leading-none text-primary-foreground/[0.03] text-center tracking-[0.1em] select-none">
+        <h2 className="editorial-title text-[15vw] leading-none text-primary-foreground/[0.03] text-center tracking-[0.1em] select-none">
           ZARIFA
         </h2>
       </div>
