@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
 
         <p className="reveal mt-10 text-sm text-primary-foreground/60">
-          * Instagram — принадлежит Meta, признанной экстремистской в РФ
+          {"\n"}
         </p>
 
         <nav className="reveal mt-10 flex flex-col gap-5">

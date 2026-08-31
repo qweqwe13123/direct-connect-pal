@@ -1,8 +1,8 @@
 const stats = [
   { value: "1 000+", label: "Оффлайн клиентов", rotate: "-6deg", dark: false, offset: "md:mt-16" },
-  { value: "8 лет", label: "Практики", rotate: "5deg", dark: true, offset: "md:-mt-4" },
-  { value: "60 000+", label: "Онлайн клиентов", rotate: "-3deg", dark: false, offset: "md:mt-24" },
-  { value: "250 000+", label: "Подписчиков", rotate: "7deg", dark: false, offset: "md:mt-2" },
+  { value: "6 ЛЕТ", label: "Практики", rotate: "5deg", dark: true, offset: "md:-mt-4" },
+  { value: "10 000+", label: "Онлайн клиентов", rotate: "-3deg", dark: false, offset: "md:mt-24" },
+  { value: "83.000+", label: "Подписчиков", rotate: "7deg", dark: false, offset: "md:mt-2" },
 ];
 
 const StatsSection = () => {
