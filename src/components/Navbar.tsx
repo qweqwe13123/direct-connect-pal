@@ -3,10 +3,12 @@ import { useNavigate } from "react-router-dom";
 
 const links = [
   { label: "Главная", href: "/", isRoute: true },
-  { label: "Услуги", href: "#services" },
-  { label: "О нас", href: "/about", isRoute: true },
+  { label: "Шоппинг-тур", href: "/istanbul", isRoute: true },
+  { label: "Подбор гардероба", href: "/wardrobe-pick", isRoute: true },
+  { label: "Персональная работа", href: "/stylist", isRoute: true },
   { label: "Контакты", href: "/contacts", isRoute: true },
 ];
+
 
 const Navbar = () => {
   const navigate = useNavigate();
