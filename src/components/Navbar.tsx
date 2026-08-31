@@ -98,8 +98,8 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       <div
-        className={`md:hidden overflow-hidden bg-background transition-[max-height] duration-500 ${
-          open ? "max-h-80 border-b border-border" : "max-h-0"
+        className={`md:hidden overflow-hidden bg-primary transition-[max-height] duration-500 ${
+          open ? "max-h-96" : "max-h-0"
         }`}
       >
         <div className="px-5 py-6 flex flex-col gap-5">
@@ -108,13 +108,14 @@ const Navbar = () => {
               key={l.label}
               href={l.href}
               onClick={handleClick(l)}
-              className="font-body text-xs tracking-[0.2em] uppercase text-foreground"
+              className="font-body text-[15px] text-primary-foreground"
             >
               {l.label}
             </a>
           ))}
         </div>
       </div>
+
     </nav>
   );
 };
