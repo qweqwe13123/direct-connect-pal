@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import serviceIstanbul from "@/assets/service-istanbul.jpg";
 import serviceCapsule from "@/assets/wardrobe-capsule-looks.png";
-import styleLook1 from "@/assets/style-look-1.jpg";
-import styleLook2 from "@/assets/style-look-2.jpg";
+import styleLook1 from "@/assets/istanbul/hero.jpg";
+import styleLook2 from "@/assets/istanbul/page2-hero.jpg";
 
 type Service = {
   caption?: string;
