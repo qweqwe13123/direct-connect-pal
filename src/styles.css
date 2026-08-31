@@ -10,8 +10,9 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 
-  --font-display: "Cormorant Garamond", serif;
-  --font-body: "Sora", sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "Jost", "Helvetica Neue", sans-serif;
+  --font-script: "Caveat", cursive;
 
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
@@ -60,43 +61,42 @@
 }
 
 :root {
-  --background: 30 15% 97%;
-  --foreground: 220 20% 10%;
-  --card: 30 10% 95%;
-  --card-foreground: 220 20% 10%;
-  --popover: 30 15% 97%;
-  --popover-foreground: 220 20% 10%;
-  --primary: 220 20% 10%;
-  --primary-foreground: 30 15% 97%;
-  --secondary: 25 18% 92%;
-  --secondary-foreground: 220 20% 10%;
-  --muted: 25 12% 93%;
-  --muted-foreground: 220 10% 45%;
-  --accent: 18 45% 82%;
-  --accent-foreground: 220 20% 10%;
+  --background: 45 100% 99%;
+  --foreground: 0 0% 5%;
+  --card: 40 20% 96%;
+  --card-foreground: 0 0% 5%;
+  --popover: 45 100% 99%;
+  --popover-foreground: 0 0% 5%;
+  --primary: 0 0% 5%;
+  --primary-foreground: 45 100% 99%;
+  --secondary: 40 10% 94%;
+  --secondary-foreground: 0 0% 5%;
+  --muted: 40 8% 93%;
+  --muted-foreground: 0 0% 42%;
+  --accent: 32 62% 74%;
+  --accent-foreground: 0 0% 5%;
   --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 100%;
-  --border: 25 15% 88%;
-  --input: 25 15% 88%;
-  --ring: 220 20% 10%;
-  --radius: 0.75rem;
+  --border: 40 6% 85%;
+  --input: 40 6% 85%;
+  --ring: 0 0% 5%;
+  --radius: 0rem;
 
-  --rose: 8 55% 62%;
-  --rose-light: 8 40% 88%;
-  --terra: 18 45% 52%;
-  --terra-light: 18 35% 85%;
-  --sage: 150 15% 55%;
-  --sage-light: 150 12% 88%;
-  --sand: 35 30% 80%;
-  --sand-light: 35 25% 92%;
-  --midnight: 220 25% 14%;
+  --rose: 32 62% 66%;
+  --rose-light: 32 60% 88%;
+  --terra: 32 40% 56%;
+  --terra-light: 32 35% 86%;
+  --sage: 40 6% 62%;
+  --sage-light: 40 6% 88%;
+  --sand: 40 6% 80%;
+  --sand-light: 40 10% 92%;
+  --midnight: 0 0% 5%;
 
-  --gold: 36 48% 52%;
-  --gold-light: 36 55% 78%;
-  --gold-foreground: 30 15% 97%;
-  --cream: 35 35% 94%;
-  --cream-dark: 35 25% 88%;
-
+  --gold: 32 62% 74%;
+  --gold-light: 32 60% 86%;
+  --gold-foreground: 0 0% 5%;
+  --cream: 40 20% 96%;
+  --cream-dark: 40 6% 80%;
   --sidebar-background: 0 0% 98%;
   --sidebar-foreground: 240 5.3% 26.1%;
   --sidebar-primary: 240 5.9% 10%;
