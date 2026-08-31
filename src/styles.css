@@ -19,9 +19,10 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 
-  --font-display: "Playfair Display", Georgia, serif;
-  --font-body: "Jost", "Helvetica Neue", sans-serif;
-  --font-script: "Caveat", cursive;
+  --font-display: "Panama", "Playfair Display", Georgia, serif;
+  --font-body: "JostLocal", "Jost", "Helvetica Neue", sans-serif;
+  --font-script: "Madelyn", "Caveat", cursive;
+
 
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
